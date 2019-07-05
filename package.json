@@ -1,0 +1,25 @@
+{
+  "name": "dragonbones-runtime",
+  "version": "1.0.0",
+  "description": "Pure DragonBones runtime in npm, more elegant.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoabc/dragonbones-runtime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taoabc/dragonbones-runtime/issues"
+  },
+  "homepage": "https://github.com/taoabc/dragonbones-runtime#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "strict": true,
+    "watch": false,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "importHelpers": false,
+    "sourceMap": false,
+    "stripInternal": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "outDir": "dist",
+  },
+  "include": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
