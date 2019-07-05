@@ -1,6 +1,6 @@
 {
   "name": "dragonbones-runtime",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Pure DragonBones runtime in npm, more elegant.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
