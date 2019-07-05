@@ -36,7 +36,7 @@
  * @version DragonBones 3.0
  * @language zh_CN
  */
-export class WorldClock implements IAnimatable {
+ export class WorldClock implements IAnimatable {
     /**
      * - Current time. (In seconds)
      * @version DragonBones 3.0

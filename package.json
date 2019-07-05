@@ -2,9 +2,11 @@
   "name": "dragonbones-runtime",
   "version": "1.0.0",
   "description": "Pure DragonBones runtime in npm, more elegant.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "lint": "tslint -p . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +22,7 @@
   "homepage": "https://github.com/taoabc/dragonbones-runtime#readme",
   "dependencies": {},
   "devDependencies": {
+    "tslint": "^5.18.0",
     "typescript": "^3.5.2"
   }
 }

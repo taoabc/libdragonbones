@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es2015",
     "strict": true,
     "watch": false,
     "module": "commonjs",
@@ -16,7 +16,7 @@
     "outDir": "dist",
   },
   "include": [
-    "src/index.ts"
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
