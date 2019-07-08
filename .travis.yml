@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- node
+install:
+- npm install
+script:
+- npm run build
+deploy:
+  provider: npm
+  email: taoabc@gmail.com
+  api_key:
+    secure: rDZs/54UpBoKll1XRI1t95TnDM3Ldk1zircFuIPjIanlpuAgl3V06F+GrHjgzt+oqj8NPjnjgnhLGl3AhF0kBm8435xHfFy50d4SUmCMQhiPa7peOFr4C5gkPWRk2lfs5khCX1kSDIGJnBGq98+5dMwkLAX+KdQxMmCmT9oZACbmYIrI0eMyYl43uTWrIn1oisSICnWzvf7IEMYrT8SjyGWngbXa++1z/HPON5fr/N+NVWSf2vgzs+rR6dunEecX1HYR0Ng6K6RiEoYxwukNeGqqLzAIANO2F92nNsXrUi7Mf9djYkpPNx+y4oeobZPGiiBwrO2bZAWgYGuvR0mL2ypq9LoRufkwVJSojLB5JmjSXfsE0PikdvoBrfsdwPrUyu47uOtJyI/GKqnFeONMNQdac6mXRJHdq+uRBOK3rADcl8fdjkXgaWfFkW/v4Mm1agWa47F5OC5iR/e1JgDdFNcvBr9UwsO9IK6Bva28nuoR+d3zBjvaNhiigMn4D9Fvkbhf+88jueuj6yyeb/rWWfeI1xcP1TWRFEXMAFosKA5Pwjpe8JL8fDDYm4miIW9Slrr85rl93PCoJw7aPvKJjAkB4aMdZirMCKhUB1wAM46MpC0cYJvMYFhNeGO42FuYEa7m6PtIHLy4yptzUKpTPCZXNEjzKfZgIJaJ8NdQ7ac=
+  on:
+    branch: production
+    repo: taoabc/dragonbones-runtime
