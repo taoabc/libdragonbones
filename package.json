@@ -1,7 +1,7 @@
 {
-  "name": "dragonbones-runtime",
+  "name": "libdragonbones",
   "version": "0.1.0",
-  "description": "Pure DragonBones runtime in npm, more elegant.",
+  "description": "Pure DragonBones library that support npm, more elegant.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taoabc/dragonbones-runtime.git"
+    "url": "git+https://github.com/taoabc/libdragonbones.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/taoabc/dragonbones-runtime/issues"
+    "url": "https://github.com/taoabc/libdragonbones/issues"
   },
-  "homepage": "https://github.com/taoabc/dragonbones-runtime#readme",
+  "homepage": "https://github.com/taoabc/libdragonbones#readme",
   "dependencies": {},
   "devDependencies": {
     "tslint": "^5.18.0",
