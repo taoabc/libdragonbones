@@ -27,7 +27,7 @@ import { IEventDispatcher } from '../event/IEventDispatcher';
 /**
  * @private
  */
-export const enum BinaryOffset {
+export enum BinaryOffset {
     WeigthBoneCount = 0,
     WeigthFloatOffset = 1,
     WeigthBoneIndices = 2,
@@ -59,7 +59,7 @@ export const enum BinaryOffset {
 /**
  * @private
  */
-export const enum ArmatureType {
+export enum ArmatureType {
     Armature = 0,
     MovieClip = 1,
     Stage = 2,
@@ -67,14 +67,14 @@ export const enum ArmatureType {
 /**
  * @private
  */
-export const enum BoneType {
+export enum BoneType {
     Bone = 0,
     Surface = 1,
 }
 /**
  * @private
  */
-export const enum DisplayType {
+export enum DisplayType {
     Image = 0,
     Armature = 1,
     Mesh = 2,
@@ -91,7 +91,7 @@ export const enum DisplayType {
  * @version DragonBones 5.0
  * @language zh_CN
  */
-export const enum BoundingBoxType {
+export enum BoundingBoxType {
     Rectangle = 0,
     Ellipse = 1,
     Polygon = 2,
@@ -99,7 +99,7 @@ export const enum BoundingBoxType {
 /**
  * @private
  */
-export const enum ActionType {
+export enum ActionType {
     Play = 0,
     Frame = 10,
     Sound = 11,
@@ -107,7 +107,7 @@ export const enum ActionType {
 /**
  * @private
  */
-export const enum BlendMode {
+export enum BlendMode {
     Normal = 0,
     Add = 1,
     Alpha = 2,
@@ -126,7 +126,7 @@ export const enum BlendMode {
 /**
  * @private
  */
-export const enum TweenType {
+export enum TweenType {
     None = 0,
     Line = 1,
     Curve = 2,
@@ -137,7 +137,7 @@ export const enum TweenType {
 /**
  * @private
  */
-export const enum TimelineType {
+export enum TimelineType {
     Action = 0,
     ZOrder = 1,
 
@@ -171,7 +171,7 @@ export const enum TimelineType {
  * @version DragonBones 5.5
  * @language zh_CN
  */
-export const enum OffsetMode {
+export enum OffsetMode {
     None,
     Additive,
     Override,
@@ -186,7 +186,7 @@ export const enum OffsetMode {
  * @version DragonBones 4.5
  * @language zh_CN
  */
-export const enum AnimationFadeOutMode {
+export enum AnimationFadeOutMode {
     /**
      * - Fade out the animation states of the same layer.
      * @language en_US
@@ -236,35 +236,35 @@ export const enum AnimationFadeOutMode {
 /**
  * @private
  */
-export const enum AnimationBlendType {
+export enum AnimationBlendType {
     None,
     E1D,
 }
 /**
  * @private
  */
-export const enum AnimationBlendMode {
+export enum AnimationBlendMode {
     Additive,
     Override,
 }
 /**
  * @private
  */
-export const enum ConstraintType {
+export enum ConstraintType {
     IK,
     Path,
 }
 /**
  * @private
  */
-export const enum PositionMode {
+export enum PositionMode {
     Fixed,
     Percent,
 }
 /**
  * @private
  */
-export const enum SpacingMode {
+export enum SpacingMode {
     Length,
     Fixed,
     Percent,
@@ -272,7 +272,7 @@ export const enum SpacingMode {
 /**
  * @private
  */
-export const enum RotateMode {
+export enum RotateMode {
     Tangent,
     Chain,
     ChainScale,

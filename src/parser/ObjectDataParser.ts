@@ -37,7 +37,7 @@ import { BoundingBoxData, RectangleBoundingBoxData, EllipseBoundingBoxData, Poly
 /**
  * @private
  */
-export const enum FrameValueType {
+export enum FrameValueType {
     Step,
     Int,
     Float,
