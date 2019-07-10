@@ -124,13 +124,13 @@ export abstract class BaseObject {
      * @version DragonBones 4.5
      * @language zh_CN
      */
-    public static borrowObject<T extends BaseObject>(objectConstructor: new () => T): T {
+    public static borrowObject<T extends BaseObject>(objectConstructor: new() => T): T {
         const classType = String(objectConstructor);
         const pool = classType in BaseObject._poolsMap ? BaseObject._poolsMap[classType] : null;
         if (pool !== null && pool.length > 0) {
-            const obj = pool.pop() as T;
-            obj._isInPool = false;
-            return obj;
+            const object = pool.pop() as T;
+            object._isInPool = false;
+            return object;
         }
 
         const object = new objectConstructor();
@@ -144,8 +144,7 @@ export abstract class BaseObject {
 
     private static _returnObject(object: BaseObject): void {
         const classType = String(object.constructor);
-        const maxCount = classType in BaseObject._maxCountMap ? BaseObject._maxCountMap[classType] :
-            BaseObject._defaultMaxCount;
+        const maxCount = classType in BaseObject._maxCountMap ? BaseObject._maxCountMap[classType] : BaseObject._defaultMaxCount;
         const pool = BaseObject._poolsMap[classType] = BaseObject._poolsMap[classType] || [];
         if (pool.length < maxCount) {
             if (!object._isInPool) {
@@ -154,6 +153,7 @@ export abstract class BaseObject {
             } else {
                 console.warn('The object is already in the pool.');
             }
+        } else {
         }
     }
     /**

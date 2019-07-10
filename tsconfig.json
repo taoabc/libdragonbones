@@ -14,6 +14,7 @@
     "experimentalDecorators": true,
     "declaration": true,
     "outDir": "dist",
+    "lib": ["es2015"]
   },
   "include": [
     "src/**/*"
