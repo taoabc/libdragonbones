@@ -1,6 +1,6 @@
 {
   "name": "libdragonbones",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pure DragonBones library that support npm, more elegant.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,6 +23,6 @@
   "dependencies": {},
   "devDependencies": {
     "tslint": "^5.18.0",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.3"
   }
 }
