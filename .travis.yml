@@ -6,6 +6,7 @@ install:
 script:
 - npm run build || true
 deploy:
+  skip_cleanup: true
   provider: npm
   email: taoabc@gmail.com
   api_key:
