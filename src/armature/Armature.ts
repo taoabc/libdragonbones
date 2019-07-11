@@ -32,7 +32,7 @@ import { TextureAtlasData } from '../model';
 import { DragonBones, ActionType } from '../core/DragonBones';
 import { Bone } from './Bone';
 import { EventObject } from '../event/EventObject';
-import { Animation } from '../animation/Animation';
+import Animation from '../animation/Animation';
 /**
  * - Armature is the core of the skeleton animation system.
  * @see dragonBones.ArmatureData

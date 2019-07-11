@@ -42,7 +42,7 @@ import { AnimationFadeOutMode } from '../core/DragonBones';
  * @version DragonBones 3.0
  * @language zh_CN
  */
-export class Animation extends BaseObject {
+export default class Animation extends BaseObject {
     /**
      * - Check whether there is an animation state is playing
      * @see dragonBones.AnimationState
@@ -203,6 +203,7 @@ export class Animation extends BaseObject {
     private _lastAnimationState: AnimationState | null;
     /**
      * @internal
+     * @todo 和Armature产生了循环引用
      */
     public init(armature: Armature): void {
         if (this._armature !== null) {
