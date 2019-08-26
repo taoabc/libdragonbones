@@ -114,7 +114,7 @@ export class DragonBonesData extends BaseObject {
     /**
      * @internal
      */
-    public intArray: Int16Array;
+    public intArray: Uint16Array;
     /**
      * @internal
      */
