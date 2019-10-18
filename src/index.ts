@@ -5,6 +5,7 @@ import { EventObject } from './event/EventObject';
 import { Slot } from './armature/Slot';
 import { BlendMode, OffsetMode } from './core/DragonBones';
 import { TextureData, TextureAtlasData } from './model/TextureAtlasData';
+import { SlotData } from '../model/ArmatureData';
 import { BaseObject } from './core/BaseObject';
 import { DragonBones } from './core/DragonBones';
 import { DragonBonesData } from './model/DragonBonesData';
@@ -21,6 +22,7 @@ export {
   EventStringType,
   EventObject,
   Slot,
+  SlotData,
   BlendMode,
   TextureData,
   TextureAtlasData,
