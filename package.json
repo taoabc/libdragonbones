@@ -1,13 +1,13 @@
 {
   "name": "libdragonbones",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Pure DragonBones library that support npm, more elegant.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "build-w": "tsc --watch",
-    "lint": "tslint -p . --fix",
+    "lint": "eslint src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +23,9 @@
   "homepage": "https://github.com/taoabc/libdragonbones#readme",
   "dependencies": {},
   "devDependencies": {
-    "tslint": "^5.18.0",
-    "typescript": "^3.5.3"
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "typescript": "^3.6.4"
   }
 }
